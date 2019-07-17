@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>thursday</title>
+	<style type="text/css">*{
+    margin: 0;
+    padding: 0;
+  }
+  .myForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #66666;
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+  .flexForm {
+    display: flex;
+    flex-direction: row;
+    background-color: #66666;
+  }
+  .myButtom {
+    font-family: lato, sans-serif;
+    color: white;
+    background-color: #000;
+    margin-top: 15px;
+    padding: 10px 15px;
+    border: 0;
+    cursor: pointer;
+    }
+  .myHeader {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-family: lato, sans-serif;
+    font-size: 32px;
+    color: #504427;
+  }
+  .myInput {
+    font-size: 14px;
+    margin: 8px;
+    margin-bottom: 10px;
+    padding-left: 12px;
+    width: 50vw;
+    height: 50px;
+    border: 1px solid #cccccc;
+    background-color: 231f20;
+    color: #cccccc;
+  }
+  .myTextArea {
+     font-size: 14px;
+    margin: 8px;
+    margin-bottom: 10px;
+    padding-left: 12px;
+    width: 50vw;
+    height: 98px;
+    border: 1px solid #cccccc;
+    background-color: #231f2021;
+    color: #cccccc;
+  }
+  .myFlexContainer1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #231f204a;
+    padding: 70px 5% 70px 18%; 
+}
+  article div {
+            margin-left: 0;
+            margin: -9px;
+        }
+  .myFlexContainer2 {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      background-color: #231f214a;
+      padding: 10px;
+  }
+.myNestedFlex1 {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 0 15px 18%;
+}
+.myNestedFlex2 {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    padding-right: 20%;
+}
+aside div {
+    padding: 10px;
+    flex-direction: row;
+}
+.myFont {
+    color: #13150e;
+    text-decoration: none;
+    font-family: Arial;
+}
+img[src^="data:image"] {
+    position: relative;
+    top: 13px;
+    right: 15px;
+}
+.menu {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navigation-item {
+    padding: 9px 17px;
+    font-family: Montserrat, sans-serif;
+    color: rgba(2, 3, 8, .6);
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.navigation-wrap {
+    position: fixed;
+    width: 100%;
+    padding: 25px 2px;
+    background-color: #fff;
+    box-shadow: 3px 3px 16px -1px rgba(0, 0, 0, .04);
+}
+nav img {
+      padding-left: 50px;
+}
+.sectionLayout {
+    padding-top: 200px; 
+    padding-bottom: 250px;
+}
+.myBodyText1 {
+    margin-left: 18%;
+    font-family: Montserrat, sans-serif;
+    color: #1a1b1f;
+}
+.myBodyText2 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-family: Montserrat, sans-serif;
+    color: #1a1b1f;
+}
+.myBodyText3 {
+    font-family: Montserrat, sans-serif;
+    color: #1a1b1f;
+    width: 30%; 
+    margin-left: 18%;
+}
+html {
+    scroll-behavior: smooth;
+}
+h1 {
+    font-size: 64px;
+    font-weight: 100;
+    margin: 10px 0;
+    line-height: 80px;
+}
+h2 {
+    font-size: 36px;
+    margin: 8px 0;
+}
+h3 {
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+h6 {
+    font-size: 16px;
+    font-weight: 100px;
+}
+p {
+    opacity: 0.6;
+}
+#a {
+    text-align: left;
+}
+  </style>
+</head>
+<body> 
+  <nav class="navigation-wrap">
+        <div class="menu">
+            <a href="#C1" class="navigation-item">HOME</a>
+            <a href="#C2" class="navigation-item">ABOUT</a>
+            <a href="#C3" class="navigation-item">CONTACT</a>
+        </div>
+    </nav
+<section class="sectionLayout" id="C1"> <!-- First NAV ID -->
+        <article class="myBodyText1">
+            <h3>IBRAHIM Walude</h3>
+            <h6>DSP Founder</h6>
+        <!-- Seccond NAV ID -->
+            <h1 id="C2">Hey there! <br>Welcome to my portfolio. <br>Please have a look around.</h1>
+        </article>
+        <article class="myBodyText2">
+           <div id="a">
+                <h6>HEY THERE!</h6>
+                <h2>I'm IBRAHIM Walude</h2>
+                <p>I’m a web and graphic designer based in Uganda, East Africa. <br> 
+                I like to build, mentor, and practically skill Ugandan youth in soft computer skills like; web App designing, graphics, as well as videograph.</p>
+            </div>
+        </article>
+        <article class="myBodyText3">
+            <h2>My experience</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in 
+                eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>
+        </article>
+    </section>
+
+    <footer>
+        <div class="flexForm" id="C3"> <!-- Third NAV ID -->
+            <article class="myFlexContainer1">
+                <div><h1 class="myFont myHeader">Name or logo</h1></div>
+                <div><p class="myFont">Lorem ipsum dolor sit amet, 
+                <br>consectetur adipiscing elit. Suspendisse 
+                <br>varius enim in eros elementum tristique. 
+                <br>Duis cursus.</p></div> 
+                
+                <div><a class="myFont" href="#"></a></div>
+                <div><a class="myFont" href="#">
+                </div>        
+            </article>
+        
+        <!-- The Form goes here -->
+            <form class="myForm">
+                <h1 class="myHeader">Get in touch!</h1>
+                <input type="text" class="myInput" placeholder="Full name">
+                <input type="email" class="myInput" placeholder="Email address">
+                <input type="tel" class="myInput" placeholder="Phone number">
+                <textarea placeholder="Example Text" class="myTextArea"></textarea>
+                <input type="submit" value="Submit" class="myButton">
+            </form>
+        </div>
+        <section class="myFlexContainer2">
+            <div class="myFont myNestedFlex1">
+                <pre>Copyrights © <a href="#" class="myFont">Company Name</a> | <a href="#" class="myFont">All rights reserved</a></pre>
+            </div>
+            
+            
+            <aside class="myNestedFlex2">
+                <div><p class="myFont">Follow us</p></div>    
+                <div><a href="#"><img src="" 
+                width="23" alt="FB Logo"></a></div>
+                <div><a href="#"><img src="https://raw.githubusercontent.com/sci-code-as/CS___Portfolio/master/footer-project/images/174855.png?token=AMGLIG25YF2H5YVQDXPWXNS5COR7K" 
+                width="23" alt="Instagram Logo"></a></div>
+                <div><a href="#"><img src="https://raw.githubusercontent.com/sci-code-as/CS___Portfolio/master/footer-project/images/twitter.png?token=AMGLIG5TGMTDIXWHCJIIDRK5COSA4" 
+                width="23" alt="Twitter Logo"></a></div>
+            </aside>    
+        </section> 
+    </footer>  
+</body>
+</html>
